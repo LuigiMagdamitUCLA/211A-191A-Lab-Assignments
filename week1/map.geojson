@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0033ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle-stroked",
+        "oceans": "my favorite ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.0703125,
+          36.87962060502676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#fff700",
+        "marker-size": "medium",
+        "marker-symbol": "star",
+        "oceans": "my second favorite ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.78125,
+          42.032974332441405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#f50000",
+        "marker-size": "medium",
+        "marker-symbol": "roadblock",
+        "oceans": "my third favorite ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.8984375,
+          -32.842673631954305
+        ]
+      }
+    }
+  ]
+}

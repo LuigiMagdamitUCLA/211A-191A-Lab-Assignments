@@ -1,5 +1,6 @@
 html, body {
     padding: 5px;
+    font-family: 'Comic Sans MS';
  }
 
  body {
@@ -16,7 +17,9 @@ html, body {
     grid-template-columns: .2fr .6fr .2fr;
     justify-content: center;
  }
-
+#goog {
+    color: red;
+}
 .main {
     display: grid;
     grid-area: main;
@@ -28,7 +31,11 @@ html, body {
     height: 40vh;
     color: white
 }
-
+#map2 {
+    grid-area: map;
+    height: 40vh;
+    color: white
+}
 #footer {
     grid-area: footer;
 }
