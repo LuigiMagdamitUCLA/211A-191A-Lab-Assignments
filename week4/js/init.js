@@ -137,5 +137,4 @@ function getRandomStory() {
     
 }
 console.log(dataExt)
-getRandomStory(extData)
 createLinkButton()
