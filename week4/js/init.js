@@ -45,7 +45,7 @@ function addMarker(data){
         L.marker([data.lat,data.lng], {icon: bruinIcon}).addTo(myMap).bindPopup(
             generatePost(
                 year = data.year,
-                eth = data.ethnicity,
+                eth = data.eth,
                 score1 = data.score1,
                 score2 = data.score2,
                 story = data.story,
