@@ -56,3 +56,7 @@ addMarker(50.8195, 2.9257, "All along the Western front", "People line up to rec
 addMarker(2.163106, -55.126648, "Saw her in the amazon", "With the voltage running through her skin")
 addMarker(40.7128, -74.0060, "All along the Eastern shore", "Put your circuits in the sea")
 addMarkerImage(34.0700, -118.4398, "Clown College", "Clown College(ucla)")
+
+var imageUrl = 'https://m.media-amazon.com/images/M/MV5BZjJhMThkNTQtNjkxNy00MDdjLTg4MWQtMTI2MmQ3MDVmODUzXkEyXkFqcGdeQXVyMTAwOTA3NzY3._V1_.jpg',
+imageBounds = [data.coords, data.coords];
+L.videoOverlay(imageUrl, imageBounds ).addTo(map);
