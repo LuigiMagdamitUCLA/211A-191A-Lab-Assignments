@@ -13,7 +13,6 @@ fetch(url)
     .then(data =>{
         console.log(data)
         processData(data)
-        dataExt = getData(data)
     })
 
 let markers = []
